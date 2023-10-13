@@ -344,7 +344,7 @@ Steps
 
 PLANS
 
-*/
+
 
 .row__plans{
   display: flex;
@@ -376,7 +376,6 @@ PLANS
     --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-  
 }
 
 .header__plans--info, .header__plans--title, .header__plans--subtitle{
@@ -402,4 +401,40 @@ PLANS
 
 .plan__description{
   padding: 14px 0;
+}
+
+*/
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+}
+
+.footer__logo--img {
+  width: 160px;
+  filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+  color: #fff;
+  padding: 24px;
+  
+}
+
+.footer__list {
+  margin: 10px 0 12px 0;
+}
+
+.footer__link {
+  padding: 0 8px;
+}
+
+.footer__copyright {
+  margin: 0 auto
 }
